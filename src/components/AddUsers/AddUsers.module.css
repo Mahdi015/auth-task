@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  margin: 6rem;
+}
+.showusers {
+  margin-right: 3rem;
+}
+.addusers {
+  padding: 20px;
+  width: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1299px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .showusers {
+    margin: 3rem 0;
+  }
+}
